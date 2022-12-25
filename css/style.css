@@ -1,0 +1,48 @@
+/* -- reset styles -- */
+@import url("reset.css");
+/* -- common styles -- */
+@import url("common.css");
+/* -- header styles -- */
+@import url("header.css");
+/* --- main styles --- */
+@import url("main.css");
+/* -- footer styles -- */
+@import url("footer.css");
+/*--------------------*/
+html,
+body {
+  font-family: 'Rubik', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+    background-color: #ffffff;
+  color: rgb(79, 86, 101)
+}
+/*--------------------*/
+.wrapper {
+  min-height: 100%;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+}
+/*--------------------*/
+.page {
+  flex: 1 1 auto;
+  padding-top: 190px;
+}
+@media (max-width: 767.98px) {
+  .page {
+    padding-top: 150px;
+  }
+}
+
+
+
+
+/*--------------------*/
+[class*="__container"] {
+  max-width: 1280px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+/*--------------------*/
